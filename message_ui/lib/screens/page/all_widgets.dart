@@ -86,38 +86,4 @@ class AllWidgets extends StatelessWidget {
               border: Border.all(color: Colors.white)),
         ));
   }
-
-  Widget _buildInfo(int index) {
-    return Expanded(
-      child: Padding(
-        padding: const EdgeInsets.only(left: 12),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              list[index].name!,
-              style: AppStyle.h4,
-            ),
-            Text(
-              list[index].lastMessage!,
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: AppStyle.h52,
-            )
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _buildTime(int index) {
-    return Opacity(
-      opacity: 0.75,
-      child: Text(
-        list[index].time!,
-        maxLines: 1,
-        style: AppStyle.h52,
-      ),
-    );
-  }
 }
