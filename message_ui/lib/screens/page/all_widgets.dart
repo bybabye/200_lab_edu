@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:message_ui/data/data.dart';
-import 'package:message_ui/screens/widgets/actives.dart';
 import 'package:message_ui/screens/widgets/avatar.dart';
 import 'package:message_ui/screens/widgets/header.dart';
 import 'package:message_ui/screens/widgets/mess_title.dart';
